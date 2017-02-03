@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Snake</title>
+
+  </head>
+
+  <body>
+
+    <script>
+
+
+
+
 alert('poop');
 
 var COLS = 26;
@@ -12,7 +29,7 @@ var RIGHT = 2;
 var UP = 1;
 var DOWN = 3;
 
-grid = { 
+var grid = { 
     width: null, 
     height: null, 
     inGrid: null, 
@@ -40,10 +57,9 @@ grid = {
     }
 }
 
-snake = {
+var snake = {
     direction: null,
     inQueue: null,
-    last: null,
 
     init: function(d, x, y) {
         this.direction = d;
@@ -60,7 +76,7 @@ snake = {
     remove: function() {
         return this.inQueue.pop();
     }
-};
+}
 
 function setFood() {
     var empty = [];
@@ -143,3 +159,11 @@ function draw() {
 main();
 
 alert('poopy');
+
+       
+    </script>
+
+    <script src="home.js"></script>
+  </body>
+
+</html>
