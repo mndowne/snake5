@@ -1,3 +1,5 @@
+
+
 alert('poop');
 
 var COLS = 26;
@@ -46,7 +48,7 @@ snake = {
     last: null,
 
     init: function(d, x, y) {
-        this.direction = d;
+       this.direction = d;
 
         this.inQueue = [];
         this.insert(x,y);
@@ -143,3 +145,7 @@ function draw() {
 main();
 
 alert('poopy');
+
+       
+
+
