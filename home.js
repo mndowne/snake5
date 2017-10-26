@@ -1,1 +1,1 @@
-alert('poop');
+alert('The JS is working');
